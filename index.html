@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+   .facebook{
+       position: fixed;
+       top: 0;
+       left: 0;
+    right: 0; 
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+margin-top: 20px;
+}     
+.oliver-image{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius:25px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.oliver-div{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.add{
+    background-color: rgb(101, 103, 230);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.message{
+    background-color: rgb(228, 209, 209);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.button-div{
+    margin-right: 30px;
+}
+
+    </style>
+</head>
+<body style="height: 3000px;">
+
+    <div class="facebook">
+        <div class="oliver-div">
+        <img class="oliver-image" src="oliver.jpg">
+        <div>Oliver cat</div>
+    </div>
+    <div class="button-div">
+        <button class="add">Add Friend</button>
+        <button class="message">Message</button>
+    </div>
+    </div>
+</body>
+</html>
